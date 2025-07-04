@@ -4,49 +4,121 @@ title: AI4SE Tutorial
 nav_order: 1
 ---
 
-# Welcome to AI4SE Tutorial
+Welcome to AI4SE Tutorial
 
-Explore the world of Artificial Intelligence for Software Engineering.
+Discover the power of Artificial Intelligence in Software Engineering with this interactive tutorial.
 
-<nav>
-  <a href="/page2.html">Go to Resources</a>
-</nav>
-
----
-
-## Introduction
-Learn about the goals and scope of the AI4SE tutorial, including what you will gain from participating.
+Follow this notebook for the Tutorial:
+https://colab.research.google.com/drive/1hfHzBwHfIhiPXAewub8QJejJxy6nsKrA?usp=sharing
 
 ---
 
-## Curriculum
+# Content
 An overview of the topics covered, including hands-on sessions, lectures, and project work.
 
 ### 1. Prompting
-Prompting involves crafting effective instructions or queries to guide AI models in generating desired outputs. This approach focuses on understanding how to communicate with AI systems to achieve optimal results.
+
+<img src="Images/Prompt-and-response-in-LLM.jpeg" alt="Prompting" width="300">
+<br>
+<small>Image credit: <a href="https://www.researchgate.net/publication/379483765_The_Power_of_Prompt_Engineering_Refining_Human_-AI_Interaction_with_Large_Language_Models_in_The_Field_of_Engineering">The Power of Prompt Engineering: Refining Human -AI Interaction with Large Language Models in The Field of Engineering</a></small>
+<br>
+
+Prompting involves crafting effective instructions or queries to guide AI models (LLMs) in generating desired outputs.
+LLMs might often need a greater context (History) rather than just the user input to generate a response.
+
 
 ### 2. Function Calling
-<img src="Images/newsletter94-function-calling.jpeg" alt="Function Calling" width="300">
-<small>Image credit: <a href="https://gradientflow.substack.com/p/expanding-ai-horizons-the-rise-of">Expanding AI Horizons: The Rise of Function Calling in LLMs</a></small>
 
-Function calling enables AI models to interact with external tools, APIs, or code by invoking specific functions. This approach bridges the gap between language models and software systems, allowing for more dynamic and actionable AI responses.
+<img src="Images/newsletter94-function-calling.jpeg" alt="Function Calling" width="200">
+<br>
+<small>Image credit: <a href="https://gradientflow.substack.com/p/expanding-ai-horizons-the-rise-of">Expanding AI Horizons: The Rise of Function Calling in LLMs</a></small>
+<br>
+Function calling lets a language model go beyond text generation by triggering external tools or APIs based on the user’s prompt. When the model detects that a specific task—like retrieving weather data, running code, querying a database, or automating a process—is needed, it calls a predefined function with the appropriate inputs.
+
+These functions can do things like:
+
+- Access cloud services (e.g., weather or maps)
+- Run backend processes or scripts
+- Query databases
+- Execute code or automation tasks
+
+The model then uses the function's output to generate a final, informed response. This turns the model into a powerful agent that can interact with external systems dynamically.
+
 
 ### 3. Retrieval-Augmented Generation (RAG)
-RAG combines the power of large language models with external knowledge sources. By retrieving relevant information from databases or documents and integrating it into responses, RAG enhances the accuracy and depth of AI-generated content.
+<img src="Images/RAG.jpg" alt="Retrieval Augmented Generation" width="600">
+<br>
+<small>Image credit: <a href="https://medium.com/@drjulija/what-is-retrieval-augmented-generation-rag-938e4f6e03d1">How I built a Simple Retrieval-Augmented Generation (RAG) Pipeline</a></small>
+<br>
+
+#### **1. Data Indexing**
+*This step prepares documents for retrieval later.*
+
+**Steps:**
+- **Data Loading:** Raw documents are collected and loaded.
+- **Data Splitting:** Documents are split into smaller text chunks (e.g., paragraphs, sentences).
+- **Data Embedding:** Each chunk is converted into a vector embedding using an embedding model. These are numerical representations that capture the semantic meaning of the text.
+- **Data Storing:** The embeddings are stored in a Vector Database (Vector DB), which enables fast similarity search.
+
+#### **2. Data Retrieval & Generation**
+*This stage is triggered when a user asks a question.*
+
+**Steps:**
+- **User Query:** A user submits a question.
+- **Vector Embedding:** The query is converted into a vector (like the document chunks).
+- **Retrieval:** The vector DB is queried with the query embedding to retrieve the most relevant Top-K Chunks.
+- **Generation:**
+  - The retrieved chunks are passed to a Large Language Model (LLM).
+  - The LLM uses this context to generate a response.
+
 
 ### 4. Agentic AI
-Agentic AI refers to systems that can autonomously plan, reason, and act to accomplish complex tasks. These agents leverage multiple AI capabilities, including reasoning, memory, and tool use, to operate in dynamic environments and achieve goals with minimal human intervention.
+
+<img src="Images/what-is-agentic-ai-1024x549.jpg" alt="Agent" width="600">
+<br>
+<small>Image credit: <a href="https://k21academy.com/ai-ml/agentic-ai/what-is-agentic-ai/">What is Agentic AI | K21Academy</a></small>
+<br>
+
+Agentic AI refers to AI systems that can act as autonomous agents, making decisions, using tools, collaborating with others, and adapting to complex tasks over time.
+
+🔧 **Agent Customization** 
+Agentic AI allows you to build specialized agents by customizing:
+- Capabilities (e.g. access to specific tools or APIs)
+- Behavior (how they interact or respond)
+- Roles (like data analyst, assistant, or coder)
+
+🧠 **Agent Architecture** 
+An agent can be powered by
+- Memory (to remember past actions)
+- Tools (to interact with the world, like APIs or functions)
+- Goals (what the agent is trying to achieve)
+
+🤖 **Multi-Agent Conversations**
+Agentic systems involve multiple agents working together. This supports collaborative problem-solving, with agents sharing results or coordinating workflows. They can have various communication patterns.
+- Joint chat: Multiple agents interact simultaneously.
+- Hierarchical chat: One lead agent delegates tasks to others.
+
+🔁 **Flexible Interaction Patterns**
+Agents aren’t limited to user prompts—they
+- Interact with each other
+- Trigger actions autonomously
+- Update plans dynamically
+
+<img src="Images/autogen.jpg" alt="Agent Communication" width="600">
+<br>
+<small>Image credit: <a href="https://microsoft.github.io/autogen/stable/">AutoGen</a></small>
+<br>
 
 ---
 
 ## Instructors
 <div style="display: flex; gap: 40px; align-items: flex-start;">
   <div style="text-align: center;">
-    <img src="Images/karthik.jpg" alt="Karthik Vaidhyanathan" width="300">
+    <img src="Images/karthik.jpg" alt="Karthik Vaidhyanathan" width="100">
     <p><b>Karthik Vaidhyanathan</b></p>
   </div>
   <div style="text-align: center;">
-    <img src="Images/rudra.jpg" alt="Rudra Dhar" width="300">
+    <img src="Images/rudra.jpg" alt="Rudra Dhar" width="100">
     <p><b>Rudra Dhar</b></p>
   </div>
 </div>
