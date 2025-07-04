@@ -9,7 +9,7 @@ nav_order: 1
 Explore the world of Artificial Intelligence for Software Engineering.
 
 <nav>
-  <a href="/page2.md">Go to Resources</a>
+  <a href="/page2.html">Go to Resources</a>
 </nav>
 
 ---
@@ -26,6 +26,9 @@ An overview of the topics covered, including hands-on sessions, lectures, and pr
 Prompting involves crafting effective instructions or queries to guide AI models in generating desired outputs. This approach focuses on understanding how to communicate with AI systems to achieve optimal results.
 
 ### 2. Function Calling
+![Alt text](Images/newsletter94-function-calling.jpeg)
+<small>Image credit: [Expanding AI Horizons: The Rise of Function Calling in LLMs](https://gradientflow.substack.com/p/expanding-ai-horizons-the-rise-of)</small>
+
 Function calling enables AI models to interact with external tools, APIs, or code by invoking specific functions. This approach bridges the gap between language models and software systems, allowing for more dynamic and actionable AI responses.
 
 ### 3. Retrieval-Augmented Generation (RAG)
@@ -38,4 +41,5 @@ Agentic AI refers to systems that can autonomously plan, reason, and act to acco
 
 ## Instructors
 Meet the experts leading the tutorial, with brief bios and contact information.
+
 
