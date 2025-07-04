@@ -26,8 +26,8 @@ An overview of the topics covered, including hands-on sessions, lectures, and pr
 Prompting involves crafting effective instructions or queries to guide AI models in generating desired outputs. This approach focuses on understanding how to communicate with AI systems to achieve optimal results.
 
 ### 2. Function Calling
-![Alt text](Images/newsletter94-function-calling.jpeg)
-<small>Image credit: [Expanding AI Horizons: The Rise of Function Calling in LLMs](https://gradientflow.substack.com/p/expanding-ai-horizons-the-rise-of)</small>
+<img src="Images/newsletter94-function-calling.jpeg" alt="Function Calling" width="300">
+<small>Image credit: <a href="https://gradientflow.substack.com/p/expanding-ai-horizons-the-rise-of">Expanding AI Horizons: The Rise of Function Calling in LLMs</a></small>
 
 Function calling enables AI models to interact with external tools, APIs, or code by invoking specific functions. This approach bridges the gap between language models and software systems, allowing for more dynamic and actionable AI responses.
 
@@ -40,6 +40,16 @@ Agentic AI refers to systems that can autonomously plan, reason, and act to acco
 ---
 
 ## Instructors
-Meet the experts leading the tutorial, with brief bios and contact information.
+<div style="display: flex; gap: 40px; align-items: flex-start;">
+  <div style="text-align: center;">
+    <img src="Images/karthik.jpg" alt="Karthik Vaidhyanathan" width="300">
+    <p><b>Karthik Vaidhyanathan</b></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="Images/rudra.jpg" alt="Rudra Dhar" width="300">
+    <p><b>Rudra Dhar</b></p>
+  </div>
+</div>
+
 
 
