@@ -8,8 +8,26 @@ Welcome to AI4SE Tutorial
 
 Discover the power of Artificial Intelligence in Software Engineering with this interactive tutorial.
 
+Lets set things up.
+
 Follow this notebook for the Tutorial:
 [Tutorial Notebook](https://colab.research.google.com/drive/1hfHzBwHfIhiPXAewub8QJejJxy6nsKrA?usp=sharing)
+
+Now we setup Gemini. Do the following:
+- Generate Your API Key
+- - Go to [Google AiStudio Api Key](https://aistudio.google.com/app/apikey)
+- - Generate Key.
+- - Provide any necessary permissions when prompted.
+
+- Add Your API Key to Colab
+- - Open your Google Colab notebook.
+- - On the left panel, click the 🔑 "Secrets" icon.
+- - Click "+ Add a new secret".
+- - 'Name' is you key name, and 'Value' is the key
+
+- Configure the API Key in Your Code
+- - Change the name in the 3rd cell if needed:  GOOGLE_API_KEY=userdata.get('**Key_Name**')
+- - Colab will ask for permission to access your secrets. Grant access to proceed. 
 
 ---
 
