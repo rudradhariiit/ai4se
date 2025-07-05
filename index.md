@@ -8,7 +8,7 @@ Welcome to AI4SE Tutorial
 
 Discover the power of Artificial Intelligence in Software Engineering with this interactive tutorial.
 
-Lets set things up.
+## Lets set things up.
 
 Follow this notebook for the Tutorial:
 [Tutorial Notebook](https://colab.research.google.com/drive/1hfHzBwHfIhiPXAewub8QJejJxy6nsKrA?usp=sharing)
