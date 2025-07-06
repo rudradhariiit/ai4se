@@ -4,7 +4,6 @@ title: Resources
 permalink: /resources.html
 nav_order: 2
 ---
-1
 ## Materials on Self-adaptation
 
 1. [The vision of autonomic computing](https://ieeexplore.ieee.org/abstract/document/1160055)
