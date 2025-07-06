@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Resources
-permalink: /page2.html
+permalink: /resources.html
 nav_order: 2
 ---
+1
 ## Materials on Self-adaptation
 
 1. [The vision of autonomic computing](https://ieeexplore.ieee.org/abstract/document/1160055)
@@ -26,8 +27,8 @@ nav_order: 2
 
 ## About SERC and SA4S
 
-[SA4S Research Group](https://sa4s-serc.github.io/)
-[Software Engineering Research Center](https://serc.iiit.ac.in/)
+1. [SA4S Research Group](https://sa4s-serc.github.io/)
+2. [Software Engineering Research Center](https://serc.iiit.ac.in/)
 
 <nav>
   <a href="/index.html">Back to Home</a>
